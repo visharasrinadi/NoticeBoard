@@ -29,18 +29,6 @@ const HomePage = () => {
         <p className="text-gray-600 mt-2">Stay up to date with the latest campus updates</p>
       </header>
 
-      <div className="max-w-4xl mx-auto grid gap-6">
-        {notices.map((notice) => (
-          <div key={notice.id} className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-xl font-semibold text-blue-700">{notice.title}</h2>
-            <p className="text-sm text-gray-500 mb-2">{new Date(notice.date).toDateString()}</p>
-            <p className="text-gray-700">{notice.description}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
+ 
 export default HomePage;
 
