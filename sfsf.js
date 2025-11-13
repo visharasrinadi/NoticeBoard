@@ -19,6 +19,8 @@ const HomePage = () => {
         description: "Library will be open from 7 AM to 9 PM during exam week.",
       },
     ];
+    setNotices(sampleNotices);
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-100 p-6">
