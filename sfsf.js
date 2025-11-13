@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 const HomePage = () => {
-  
+  const [notices, setNotices] = useState([]);
+
   // Sample data; replace with API call later
   useEffect(() => {
     const sampleNotices = [
