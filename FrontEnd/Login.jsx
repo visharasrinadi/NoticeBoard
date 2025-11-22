@@ -9,7 +9,7 @@ const Login = () => {
   const [error, setError] = useState("");
 
   const handleLogin = (e) => {
-    e.preventDefault();
+    //e.preventDefault();
 
     // Simple login logic
     if (email === "admin@university.com" && password === "123456") {
